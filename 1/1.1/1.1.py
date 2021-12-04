@@ -1,7 +1,7 @@
 class Solution:
     def makeCSV() -> list:
         output = []
-        with open('1/day1_input.txt') as data:
+        with open('1/1.1/1.1.txt') as data:
             for line in data:
                  output.append(line.strip())
 
