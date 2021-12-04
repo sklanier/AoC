@@ -8,9 +8,9 @@ class Solution:
         return output
 
     def largerThanLast(data):
-        count = 1
+        count = 0
         for i in range(1, len(data)):
-            if data[i] > data[i-1]:
+            if int(data[i]) > int(data[i-1]):
                 count += 1
         print(count)
 data = Solution.makeCSV()
