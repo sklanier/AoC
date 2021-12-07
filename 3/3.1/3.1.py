@@ -42,3 +42,5 @@ class Solution:
 
 data = Solution.makeCSV()
 Solution.countBits(data)
+
+s
