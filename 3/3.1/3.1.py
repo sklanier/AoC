@@ -19,6 +19,8 @@ class Solution:
         c9 = 0
         c10 = 0
         c11 = 0
+
+        
         c12 = 0
 
         for num in list:
